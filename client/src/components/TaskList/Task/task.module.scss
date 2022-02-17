@@ -1,0 +1,53 @@
+.task{
+  position: relative;
+  width: 39%;
+  height: 12rem;
+  margin: 1rem auto;
+  border:  5px solid  rgb(146, 154, 228);
+  text-align: center;  
+  padding: 2rem;
+  box-sizing: border-box;
+  line-height: 0;
+}
+
+.delBtn{
+  cursor: pointer;
+  color: rgb(202, 96, 116);
+}
+
+.done{
+  color: green;
+}
+
+.taskProcess{
+  font-size: 23rem;
+}
+
+.check{
+  font-size: 0.6rem;
+}
+
+.date{
+  margin-top: 2rem;
+  font-size: 0.5rem;
+  line-height: 0.2rem;
+  text-align: left;
+}
+
+.author{
+  position: absolute;
+  left: 4%;
+  top:0;
+  font-size: 0.7rem;
+}
+
+.buttons{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  *{
+    height: 1rem;
+    width:calc( 100% / 3 )
+  }
+
+}
